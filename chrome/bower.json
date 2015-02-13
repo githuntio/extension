@@ -1,0 +1,28 @@
+{
+  "name": "githunt.ext",
+  "version": "0.1.0",
+  "homepage": "https://github.com/githuntio/githunt.ext",
+  "authors": [
+    "0x142857 <0x142857@gmail.com>"
+  ],
+  "description": "GitHunt for Chrome",
+  "keywords": [
+    "githunt",
+    "github",
+    "open-source"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "moment": "~2.9.0",
+    "jquery": "~2.1.3",
+    "uri.js": "~1.14.1"
+  }
+}

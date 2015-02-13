@@ -1,0 +1,34 @@
+{
+    "manifest_version": 2,
+    "name": "Git Hunt for Chrome",
+    "version": "0.1.0",
+    "description": "Make Git Hunt more reachable",
+    "icons": {
+        "16": "images/icon_large.png",
+        "48": "images/icon_large.png",
+        "128": "images/icon_large.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "19": "images/icon_large.png",
+            "38": "images/icon_large.png"
+        },
+        "default_title": "Git Hunt",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["storage","browsingData", "<all_urls>", "tabs"],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://github.com/*"
+            ],
+            "js": [
+                "lib/jquery/dist/jquery.js",
+                "lib/moment/min/moment-with-locales.js",
+                "lib/uri.js/src/URI.js",
+                "js/main.js"
+            ],
+            "css": ["css/main.css"]
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+.githunt-loading {
+  text-align: center;
+}
+
+.gh-future, .ph-future {
+  border-top: 1px solid #f1f1f1;
+  padding-top: 1em;
+}
+
+.gh-des {
+  border-radius: 3px;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #666;
+}
+
+.gh-body {
+  padding: 60px 30px;
+  width: 400px;
+  text-align: center;
+}
+
+.hn-rank {
+  position: absolute !important;
+  left: 11px;
+  top: 1em;
+  height: 16px;
+  color: #828282;
+}
+
+.news .alert:first-child .hn-rank {
+  top: 1px;
+}
+
+.hide {
+  display: none;
+}
